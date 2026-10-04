@@ -26,7 +26,6 @@ DynaFlux 是一个基于 PyTorch 的交通流量预测框架，联合建模多�
 python -m venv .venv
 # Windows: .venv\\Scripts\\activate
 # Linux/macOS: source .venv/bin/activate
-pip install -r requirements.txt
 pip install -e .
 ```
 

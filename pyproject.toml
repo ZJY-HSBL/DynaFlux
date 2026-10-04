@@ -21,6 +21,9 @@ dependencies = [
   "matplotlib>=3.7"
 ]
 
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["dynaflux*"]
